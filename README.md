@@ -176,11 +176,17 @@ that this class inherits from.
 You can see how Python classes inherit from one another by using Python to do some
 _introspection_ on our classes.
 
-Open up the Python shell, and start by importing the files from the `lib` folder:
+First, change directory into the `lib` folder:
+
+```bash
+cd lib
+```
+
+Then, open up the Python shell, and start by importing the files from the `lib` folder:
 
 ```py
-from lib.vehicle import Vehicle
-from lib.car import Car
+from vehicle import Vehicle
+from car import Car
 ```
 
 This will let you interact with the code you've written in those files from
